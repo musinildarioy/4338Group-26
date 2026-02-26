@@ -1,0 +1,14 @@
+<Window x:Class="Template4338._4338_Musin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Информация об авторе" Height="200" Width="300">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Информация об авторе" FontSize="16" FontWeight="Bold" Margin="10"/>
+            <TextBlock Text="Группа: 4338" Margin="5"/>
+            <TextBlock Text="Фамилия: Мусин" Margin="5"/>
+            <TextBlock Text="Имя: Ильдар" Margin="5"/>
+            <TextBlock Text="Возраст: 20" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

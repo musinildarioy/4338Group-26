@@ -50,11 +50,16 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <!-- Места для добавления элементов управления -->
+				<Button x:Name="MusinButton"
+		Content="Информация об авторе"
+		Click="MusinButton_Click"
+		Grid.Row="4"  <!-- если строки с 0, то номер 5 = Grid.Row="4" -->
+				Width="150"
+				Height="30"
+				Margin="10"/>
 
-                <!---->
 
-            </Grid>
+			</Grid>
         </Grid>
     </Grid>
 </Window>
